@@ -1,0 +1,10 @@
+package com.priya.careerpilotbackend.dto;
+
+import lombok.Data;
+
+@Data
+public class RefreshTokenRequest {
+
+    private String refreshToken;
+
+}

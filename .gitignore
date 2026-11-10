@@ -1,0 +1,23 @@
+
+# Maven build files
+**/target/
+
+# IntelliJ files
+.idea/
+*.iml
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Uploaded resumes
+**/uploads/
+**/resumes/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
